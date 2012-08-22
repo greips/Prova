@@ -19,7 +19,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           android:windowSoftInputMode="adjustPan"
-          package="com.pushwoosh.test"
+          package="com.phongap.www"
           android:versionName="1.1"
           android:versionCode="5">
     <supports-screens
@@ -69,10 +69,10 @@
            where PACKAGE is the application's package name.
     -->
     <permission
-            android:name="com.pushwoosh.test.permission.C2D_MESSAGE"
+            android:name="com.phonegap.www.permission.C2D_MESSAGE"
             android:protectionLevel="signature"/>
     <uses-permission
-            android:name="com.pushwoosh.test.permission.C2D_MESSAGE"/>
+            android:name="com.phonegap.www.permission.C2D_MESSAGE"/>
 
     <!-- This app has permission to register and receive data message. -->
     <uses-permission
